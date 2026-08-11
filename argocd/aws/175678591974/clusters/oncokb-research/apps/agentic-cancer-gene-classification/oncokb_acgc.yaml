@@ -39,7 +39,7 @@ spec:
       # actually picked up (matches cell-explorer's identical setup).
       containers:
         - name: agentic-cancer-gene-classification
-          image: oncokb/agentic-cancer-gene-classification:latest
+          image: mskcc/agentic-cancer-gene-classification:latest
           imagePullPolicy: Always
           ports:
             - name: http
